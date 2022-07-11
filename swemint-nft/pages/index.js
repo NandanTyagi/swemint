@@ -8,12 +8,12 @@ import { Button } from "../components/Button";
 export default function Home() {
   return (
     <>
+        <Script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></Script>
+        <Script src="https://unpkg.com/moralis/dist/moralis.js"></Script>
       <Head>
         <title>Swemint.io | NFT</title>
         <meta name="description" content="Mint NFTs with Swemint" />
         <link rel="icon" href="/favicon.ico" />
-        <Script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></Script>
-        <Script src="https://unpkg.com/moralis/dist/moralis.js"></Script>
       </Head>
       <div className={styles.containerOverlay}></div>
 
