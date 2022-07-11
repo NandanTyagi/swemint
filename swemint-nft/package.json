@@ -10,14 +10,22 @@
   },
   "dependencies": {
     "@ethereumjs/common": "^2.6.5",
+    "@ethereumjs/tx": "^3.5.2",
+    "@metamask/eth-sig-util": "^4.0.1",
+    "@metamask/safe-event-emitter": "^2.0.0",
+    "@walletconnect/mobile-registry": "^1.4.0",
     "@walletconnect/web3-provider": "^1.7.8",
     "@web3auth/web3auth": "^1.1.0",
+    "ethereumjs-block": "^2.2.2",
+    "ethereumjs-common": "^1.5.2",
+    "ethereumjs-vm": "^4.2.0",
     "magic-sdk": "^7.0.0",
     "moralis": "^1.8.1",
     "next": "12.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-moralis": "^1.4.0"
+    "react-moralis": "^1.4.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
