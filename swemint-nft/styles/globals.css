@@ -10,6 +10,24 @@ body {
   color: white;
 }
 
+body {
+  background-image:url('/img/swemint-bg-1.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: fit-content;
+}
+
+@font-face {
+  font-family: 'digital-7';
+  src: url('../fonts/digital-7/digital-7.ttf');
+}
+@font-face {
+  font-family: 'iknu';
+  src: url('../fonts/iknu.normal.ttf');
+}
+
 
 
 a {
@@ -21,5 +39,10 @@ a {
   margin: 0;
   padding:0;
   box-sizing: border-box;
+}
+
+:root {
+  --secondary-font-color: #74FCFD;
+
 }
 
