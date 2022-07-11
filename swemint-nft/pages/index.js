@@ -20,10 +20,9 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.layout}>
         <header className={styles.header}>
-        <h1 className={styles.title}>SweMint.io</h1>
       </header>
           <main className={styles.main}>
-            <h2 className={styles.title}>IPANEKO</h2>
+            <h1 className={styles.title}>IPANEKO</h1>
             <p className={styles.preamble}>
               Before there was matter all was spirit. The mighty Aeons existed
               in the heavenly Pleroma. The last born Aeon Sophia who was known
