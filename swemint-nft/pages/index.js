@@ -36,13 +36,13 @@ export default function Home() {
               only to destroy the divine light. Mint your genesis IPA and join
               the quest to bring decentralized harmony to the universe.
             </p>
-            <Button text="Connect wallet" />
+            <Button text="CONNECT WALLET" />
             <Counter />
           </main>
 
           <footer className={styles.footer}>
-            NFT-Project | 2022 |{" "}
-            <a href="https://www.nandantyagi.com"> Sweden</a>
+            NFT-PPROJEC   |   2022   |  
+            <a href="https://www.nandantyagi.com"> ALL MATERIAL IS ARTIFICIAL  |  ALL INTELLIGENCE IS DIVINE</a>
           </footer>
         </div>
       </div>
