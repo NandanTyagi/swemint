@@ -15,7 +15,9 @@
   .counter__title {
     font-family: 'futura';
     color: var(--secondary-font-color);
-    padding-top: 2rem
+    padding-top: 2rem;
+    font-size: 1rem;
+    font-weight: 300;
   }
 
   .time {

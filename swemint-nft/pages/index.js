@@ -41,7 +41,6 @@ export default function Home() {
           </main>
 
           <footer className={styles.footer}>
-            NFT-PPROJEC   |   2022   |  
             <a href="https://www.nandantyagi.com"> ALL MATERIAL IS ARTIFICIAL  |  ALL INTELLIGENCE IS DIVINE</a>
           </footer>
         </div>
