@@ -101,6 +101,10 @@
 
 @media screen and (max-width: 400px) {
 
+  .layout {
+    grid-template-rows: calc(100% - 48px) 48px;
+  }
+
   .main {
     justify-content: center;
     align-items: center;
@@ -113,7 +117,7 @@
 
   .main .preamble {
     width: 80vw;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     line-height: 1.2;
     margin-top: unset;
   }
