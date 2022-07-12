@@ -41,7 +41,7 @@ body {
 
 body {
   background-image:url('/img/swemint-bg-1.jpg');
-  background-position: center center;
+  background-position: center center ;
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -60,4 +60,8 @@ a {
   box-sizing: border-box;
 }
 
-
+@media screen and (max-width: 500px) {
+  body {
+  background-position: left ;
+}
+}
