@@ -36,7 +36,7 @@
   font-size: 18rem;
   text-align: center;
   padding-left: 24px;
-  margin-top: -4rem;
+  margin-top: -3rem;
 }
 
 .main {
@@ -100,14 +100,23 @@
 }
 
 @media screen and (max-width: 400px) {
+
+  .main {
+    justify-content: center;
+    align-items: center;
+  }
+
+
   .main .title {
     font-size: 3rem;
+    margin-top: unset;
   }
 
   .main .preamble {
     width: 80vw;
     font-size: 0.8rem;
     line-height: 1.2;
+    margin-top: unset;
   }
 
   .footer {
