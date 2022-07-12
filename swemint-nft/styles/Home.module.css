@@ -89,7 +89,7 @@
 
   .main .preamble {
     width: 80vw;
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 1.2;
   }
 
@@ -106,7 +106,6 @@
     align-items: center;
   }
 
-
   .main .title {
     font-size: 4rem;
     margin-top: unset;
@@ -114,7 +113,7 @@
 
   .main .preamble {
     width: 80vw;
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 1.2;
     margin-top: unset;
   }
