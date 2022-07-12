@@ -20,7 +20,7 @@
 
 .layout {
   display: grid;
-  grid-template-rows: calc(100vh - 45px) 30px;
+  grid-template-rows: calc(100vh - 48px) 32px;
   height: 80vh;
   justify-items: space-between;
   place-items: center;
@@ -28,33 +28,26 @@
   align-items: end;
 }
 
-.header {
-  width: 100%;
-  z-index: 2;
-  position: fixed;
-  top: 0;
-  padding: 0;
-}
-
 .main .title {
   color: white;
   font-family: "iknu";
   font-weight: 500;
   letter-spacing: 2rem;
-  padding: 0px 0px 0px 28px;
   font-size: 14rem;
+  text-align: center;
+  padding-left: 24px;
 }
 
 .main {
   font-family: "futura";
-  height: 100vh;
+  height: calc(100vh - 48px);
   width: 100%;
   text-align: center;
   padding: 0;
   z-index: 2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   overflow: hidden;
   text-transform: uppercase;
@@ -64,6 +57,8 @@
 .main .preamble {
   width: 50vw;
   font-size: 0.9rem;
+  line-height: 1.2;
+  letter-spacing: 0.1rem;
 }
 
 .footer {
@@ -85,12 +80,13 @@
 
 @media screen and (max-width: 500px) {
   .main .title {
-    font-size: 4rem;
+    font-size: 3.6rem;
+    letter-spacing: 1.8rem;
   }
 
   .main .preamble {
     width: 80vw;
-    font-size: 1.6rem;
+    font-size: 1rem;
     line-height: 1.2;
   }
 
@@ -107,7 +103,7 @@
 
   .main .preamble {
     width: 80vw;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     line-height: 1.2;
   }
 

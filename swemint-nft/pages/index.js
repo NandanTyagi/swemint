@@ -19,8 +19,6 @@ export default function Home() {
 
       <div className={styles.container}>
         <div className={styles.layout}>
-        <header className={styles.header}>
-      </header>
           <main className={styles.main}>
             <h1 className={styles.title}>IPANEKO</h1>
             <p className={styles.preamble}>

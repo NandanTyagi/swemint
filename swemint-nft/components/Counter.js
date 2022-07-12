@@ -20,29 +20,28 @@ export const Counter = () => {
 
   return (
     <>
-      <h3 className={styles.counter__title}>TIME REMAINING</h3>
-      <div className={styles.counter}>
-        <div className={styles.time}>
-          <div>{days}</div>
-          <div className={styles.description}>DAYS</div>
-        </div>
-        <span className={styles.time}>:</span>
-        <div className={styles.time}>
-          <div>{hours}</div>
-          <div className={styles.description}>HOURS</div>
-          
-        </div>
-        <span className={styles.time}>:</span>
-        <div className={styles.time}>
-          <div>{minutes}</div>
-          <div className={styles.description}>MINUTES</div>
-          
-        </div>
-        <span className={styles.time}>:</span>
-        <div className={styles.time}>
-          <div>{seconds}</div>
-          <div className={styles.description}>SECONDS</div>
-          
+      <div className={styles.counter__wrapper}>
+        <h3 className={styles.counter__title}>TIME REMAINING</h3>
+        <div className={styles.counter}>
+          <div className={styles["time"] + " " + styles["glow"]}>
+            <div>{days}</div>
+            <div className={styles.description}>DAYS</div>
+          </div>
+          <span className={styles["time"] + " " + styles["glow"]}>:</span>
+          <div className={styles["time"] + " " + styles["glow"]}>
+            <div>{hours}</div>
+            <div className={styles.description}>HOURS</div>
+          </div>
+          <span className={styles["time"] + " " + styles["glow"]}>:</span>
+          <div className={styles["time"] + " " + styles["glow"]}>
+            <div>{minutes}</div>
+            <div className={styles.description}>MINUTES</div>
+          </div>
+          <span className={styles["time"] + " " + styles["glow"]}>:</span>
+          <div className={styles["time"] + " " + styles["glow"]}>
+            <div>{seconds}</div>
+            <div className={styles.description}>SECONDS</div>
+          </div>
         </div>
       </div>
     </>

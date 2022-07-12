@@ -19,7 +19,7 @@
   .counter__title {
     font-family: 'futura';
     color: var(--secondary-font-color);
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     font-size: 1rem;
     font-weight: 300;
   }
@@ -35,6 +35,30 @@
     font-size: 0.9rem;
     text-align: center;
     font-weight: bold;
-    margin-top: 24px;
+    margin-top: 0;
   }
+
+  .glow {
+  font-size: 4rem;
+  color: var(--secondary-font-color);
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px var(--secondary-font-color), 0 0 20px var(--secondary-font-color), 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px var(--secondary-font-color), 0 0 70px var(--secondary-font-color), 0 0 80px var(--secondary-font-color);
+  }
+}
+  
+  @media screen and (max-width: 768px) {
+    .description {
+      margin-top: 12px;
+  }
+}
   
