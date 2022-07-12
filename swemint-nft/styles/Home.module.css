@@ -33,14 +33,16 @@
   font-family: "iknu";
   font-weight: 500;
   letter-spacing: 2rem;
-  font-size: 14rem;
+  font-size: 18rem;
   text-align: center;
   padding-left: 24px;
+  margin-top: -4rem;
 }
 
 .main {
   font-family: "futura";
-  height: calc(100vh - 48px);
+  /* height: calc(100vh - 48px); */
+  height: 100%;
   width: 100%;
   text-align: center;
   padding: 0;
@@ -52,6 +54,7 @@
   overflow: hidden;
   text-transform: uppercase;
   gap: 1rem;
+  /* overflow-y: auto; */
 }
 
 .main .preamble {
