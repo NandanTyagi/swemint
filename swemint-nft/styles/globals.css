@@ -62,6 +62,6 @@ a {
 
 @media screen and (max-width: 500px) {
   body {
-  background-position: left ;
+    background-image:url('/img/bg-mobile.png');
 }
 }
