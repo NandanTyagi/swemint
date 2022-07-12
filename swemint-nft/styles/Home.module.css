@@ -93,11 +93,30 @@
 
   .main .preamble {
     width: 80vw;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+    line-height: 1.2;
   }
 
   .footer {
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+  font-size: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .main .title {
+    font-size: 3rem;
+  }
+
+  .main .preamble {
+    width: 80vw;
+    font-size: 0.6rem;
+    line-height: 1.2;
+  }
+
+  .footer {
+    letter-spacing: 0.1rem;
   font-size: 0.4rem;
   }
 }
