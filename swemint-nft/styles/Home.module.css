@@ -83,19 +83,19 @@
 
 @media screen and (max-width: 500px) {
   .main .title {
-    font-size: 3.6rem;
+    font-size: 4rem;
     letter-spacing: 1.8rem;
   }
 
   .main .preamble {
     width: 80vw;
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 1.2;
   }
 
   .footer {
     letter-spacing: 0.1rem;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -108,13 +108,13 @@
 
 
   .main .title {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-top: unset;
   }
 
   .main .preamble {
     width: 80vw;
-    font-size: 0.8rem;
+    font-size: 1.4rem;
     line-height: 1.2;
     margin-top: unset;
   }
