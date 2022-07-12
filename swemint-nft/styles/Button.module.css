@@ -22,6 +22,8 @@
 @media screen and (max-width: 400px) {
     .btn {
         margin: 1rem 0;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        width: 200px;
+        height: 45px;
     }
 }

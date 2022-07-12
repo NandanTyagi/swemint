@@ -20,7 +20,7 @@
 
 .layout {
   display: grid;
-  grid-template-rows: calc(100vh - 48px) 32px;
+  grid-template-rows: 90% 10%;
   height: 80vh;
   justify-items: space-between;
   place-items: center;
@@ -72,7 +72,9 @@
   z-index: 2;
   letter-spacing: 0.7rem;
   font-size: 0.6rem;
-  padding: 1rem 1rem 0 1rem;
+  
+  display:grid;
+  place-items:center;
 }
 
 @media screen and (max-width: 768px) {
@@ -85,6 +87,7 @@
   .main .title {
     font-size: 4rem;
     letter-spacing: 1.8rem;
+    padding-top: 4rem;
   }
 
   .main .preamble {
@@ -102,7 +105,7 @@
 @media screen and (max-width: 400px) {
 
   .layout {
-    grid-template-rows: calc(100% - 48px) 48px;
+    grid-template-rows: 70% 25%;
   }
 
   .main {
@@ -124,6 +127,6 @@
 
   .footer {
     letter-spacing: 0.1rem;
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
 }
