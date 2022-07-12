@@ -27,7 +27,7 @@
   .time {
       font-family: 'digital-7', sans-serif;
       color: var(--secondary-font-color);
-      font-size: 4rem;
+      font-size: 3rem;
       min-width: 30px;
   }
 
@@ -39,7 +39,7 @@
   }
 
   .glow {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--secondary-font-color);
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
