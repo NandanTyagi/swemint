@@ -20,7 +20,7 @@ export const Counter = () => {
 
   return (
     <>
-      <h3 className={styles.counter__title}>TIME REMINING</h3>
+      <h3 className={styles.counter__title}>TIME REMAINING</h3>
       <div className={styles.counter}>
         <div className={styles.time}>
           <div>{days}</div>
