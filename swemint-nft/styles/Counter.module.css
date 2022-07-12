@@ -3,6 +3,10 @@
     src: url('../fonts/digital-7/digital-7.ttf');
   }
 
+  .counter span {
+    height: 100%;
+  }
+
   .counter {
     display: flex;
     flex-direction: row;
@@ -31,5 +35,6 @@
     font-size: 0.9rem;
     text-align: center;
     font-weight: bold;
+    margin-top: 8px;
   }
   
