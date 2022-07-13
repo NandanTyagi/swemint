@@ -20,7 +20,7 @@
 
 .layout {
   display: grid;
-  grid-template-rows: 90vh 10vh;
+  grid-template-rows: 90vh;
   height: 100%;
   justify-items: space-between;
   place-items: center;
@@ -99,7 +99,7 @@
 
   .footer {
     letter-spacing: 0.1rem;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 }
 
