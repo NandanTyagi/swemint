@@ -35,7 +35,7 @@
   font-size: 18rem;
   text-align: center;
   padding-left: 24px;
-  margin-top: -3rem;
+  margin-top: 0;
 }
 
 .main {
@@ -52,7 +52,6 @@
   align-items: center;
   overflow: hidden;
   text-transform: uppercase;
-  /* overflow-y: auto; */
 }
 
 .main .preamble {
@@ -72,6 +71,7 @@
   font-size: 0.6rem;
   display:grid;
   place-items:center;
+  align-items: flex-end;
 }
 
 .footer a {
