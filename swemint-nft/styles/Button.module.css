@@ -10,6 +10,7 @@
     cursor: pointer;
     text-transform: uppercase;
     border-radius: 5px;
+    margin: 2rem 0;
 }
 
 .btn:hover {
